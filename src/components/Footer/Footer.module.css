@@ -1,0 +1,35 @@
+.linkFooter {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.navFooter {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.navFooter li {
+    color: white;
+    margin: 5px;
+}
+
+.navFooter img {
+    width: 50px;
+}
+
+.frase{
+    color: white;
+}

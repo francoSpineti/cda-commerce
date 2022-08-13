@@ -1,0 +1,116 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.navFooter {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.navFooter h2 {
+    color: 'white';
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0px 10px;
+}
+
+.navFooter li {
+    color: white;
+    margin: 5px;
+}
+
+.navFooter img {
+    width: 50px;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+.linkNav {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    background-color: rgb(55, 145, 241);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.linkFooter {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.linkNav:hover {
+    color: rgb(55, 145, 241);
+    border: 2px solid rgb(55, 145, 241);
+
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(55, 145, 241);
+    font-style: italic;
+    cursor: pointer;
+}
+
+.favCart {
+    display: flex;
+    align-items: center;
+    border-left: 4px solid rgb(55, 145, 241);
+    border-right: 4px solid rgb(55, 145, 241);
+    border-radius: 5px;
+    padding: 2px;
+    gap: 15px;
+}
+
+.fav {
+    text-decoration: none;
+    color: rgb(55, 145, 241);
+    border: 2px solid rgb(55, 145, 241);
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    margin: 0px 5px;
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+}
+
+.fav:hover {
+    color: white;
+    background-color: rgb(55, 145, 241);
+}
+
+.logoCart {
+    width: 35px;
+}

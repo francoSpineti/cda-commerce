@@ -1,0 +1,77 @@
+.card {
+    box-shadow: 0px 0px 10px 1px rgba(10, 148, 234, 0.497);
+    margin: 15px;
+    width: 300px;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 2px 2px 10px 1px rgba(63, 63, 63, 0.347);
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 130px;
+    object-fit: cover;
+}
+
+.card .info {
+    padding: 10px;
+    border-left: 5px solid rgba(204, 204, 204, 0.278);
+}
+
+.card .info h3 {
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 7px;
+    color: rgb(37, 176, 235);
+    background-color: rgba(9, 9, 9, 0.899);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.card .info h4 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.detalle {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: rgb(37, 176, 235);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.favButton {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(161, 23, 11);
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 2px solid rgb(161, 23, 11);
+}
+
+.favButtonQuit {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid rgb(11, 161, 68);
+    color: rgb(11, 161, 68);
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}

@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.primary {
+    background-color: green;
+    border: none;
+    padding: 10px;
+}
+
+.secondary {
+    background-color: white;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+.active {
+    background-color: red;
+}
